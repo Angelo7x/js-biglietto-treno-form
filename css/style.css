@@ -58,12 +58,14 @@ h2 {
     margin-right: 20px;
 }
 
-.form-biglietto {
-    background-color: white;
-}
+/* .form-biglietto {
+    
+} */
 
 .biglietto {
     display: none;
+    background-color: white;
+    margin-top: 20px;
 }
 
 .biglietto.open {

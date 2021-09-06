@@ -25,8 +25,6 @@ btnGenera.addEventListener("click",
         document.getElementById("codice-cp").innerHTML = Math.floor(Math.random() * (99999 - 90000) ) + 90000;
         document.getElementById("costo-biglietto").innerHTML = prezzo + "€";
         document.getElementById("biglietto").classList.add("open");
-     } else {
-            alert("Errore, riprova");
         }
 );
 
