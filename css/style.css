@@ -61,3 +61,11 @@ h2 {
 .form-biglietto {
     background-color: white;
 }
+
+.biglietto {
+    display: none;
+}
+
+.biglietto.open {
+    display:block;
+}
