@@ -1,13 +1,14 @@
 var btnGenera = document.getElementById("genera");
 var btnAnnulla = document.getElementById("annulla");
 
-var nome = document.getElementById("nome").value;
-var km = document.getElementById("km").value;
-var fascia = document.getElementById("fascia").value;
+
 
 // prezzo biglietto
 btnGenera.addEventListener("click",
     function() {
+        var nome = document.getElementById("nome").value;
+        var km = document.getElementById("km").value;
+        var fascia = document.getElementById("fascia").value;
         if ( nome != "" && !isNaN(km) && fascia != "") {
             var prezzo = km * 0.21;
             var nomeOfferta = "Standard";
